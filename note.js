@@ -1,6 +1,6 @@
- document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
       //background====================================================================
-      document.body.style.backgroundImage = "url('bkgrnd.jpeg')";
+      document.body.style.backgroundImage = "url('images/bkgrnd.jpeg')";
       document.body.style.backgroundSize = "cover";
       document.body.style.backgroundRepeat = "no-repeat";
       document.body.style.backgroundPosition = "center center";
@@ -60,7 +60,7 @@
       clearButton.style.justifyContent = "center";
 
       const iconClear = document.createElement("img");
-      iconClear.src = "tool.png";
+      iconClear.src = "images/tool.png";
       iconClear.alt = "clear";
       iconClear.style.width = "20px";
       iconClear.style.height = "20px";
@@ -80,7 +80,7 @@
       searchButton.style.padding = "0 15px";
 
       const icon = document.createElement("img");
-      icon.src = "loupe.png";
+      icon.src = "images/loupe.png";
       icon.alt = "search";
       icon.style.width = "20px";
       icon.style.height = "20px";
@@ -93,7 +93,7 @@
 
       //stickers==================================================================
       const sticker1 = document.createElement("img");
-      sticker1.src = "rose.png";
+      sticker1.src = "images/rose.png";
       sticker1.alt = "Sticker 1";
       sticker1.style.position = "absolute";
       sticker1.style.top = "30px";
@@ -103,7 +103,7 @@
       document.body.appendChild(sticker1);
 
       const sticker2 = document.createElement("img");
-      sticker2.src = "green-star.png";
+      sticker2.src = "images/green-star.png";
       sticker2.alt = "Sticker 2";
       sticker2.style.position = "absolute";
       sticker2.style.top = "10px";
@@ -113,7 +113,7 @@
       document.body.appendChild(sticker2);
 
       const sticker3 = document.createElement("img");
-      sticker3.src = "rose.png";
+      sticker3.src = "images/rose.png";
       sticker3.alt = "Sticker 3";
       sticker3.style.position = "absolute";
       sticker3.style.top = "10px";
@@ -122,9 +122,8 @@
       sticker3.style.height = "70px";
       document.body.appendChild(sticker3);
 
-
       const sticker4 = document.createElement("img");
-      sticker4.src = "sticker-totoro.png";
+      sticker4.src = "images/sticker-totoro.png";
       sticker4.alt = "Sticker 4";
       sticker4.style.position = "absolute";
       sticker4.style.top = "465px"; 
@@ -148,7 +147,7 @@
       inputCard.style.display = "flex";
       inputCard.style.flexDirection = "column";
       inputCard.style.justifyContent = "space-between";
-      inputCard.style.fontFamily = "'Dancing Script', cursive";
+      inputCard.style.fontFamily = "'D dancing Script', cursive";
 
       //title + textarea==================================================================
       const contentWrapper = document.createElement("div");
@@ -178,7 +177,7 @@
       noteContent.style.border = "1px solid #ccc";
       noteContent.style.borderRadius = "8px";
       noteContent.style.resize = "none";
-      noteContent.style.backgroundImage = "url('jiji.jpeg')";
+      noteContent.style.backgroundImage = "url('images/jiji.jpeg')";
       noteContent.style.backgroundSize = "cover";
       noteContent.style.backgroundPosition = "center";
       noteContent.style.backgroundRepeat = "no-repeat";
@@ -238,7 +237,7 @@
         notesContainer.innerHTML = "";
         notesToDisplay.forEach((note, index) => {
           const noteElement = document.createElement("div");
-          noteElement.style.backgroundImage = "url('t.jpeg')";
+          noteElement.style.backgroundImage = "url('images/t.jpeg')";
           noteElement.style.backgroundSize = "cover";
           noteElement.style.backgroundPosition = "center";
           noteElement.style.backgroundRepeat = "no-repeat";
@@ -259,6 +258,7 @@
           noteTitle.style.color = "rgba(199, 188, 176, 1)";
           noteTitle.style.fontSize = "18px";
           noteTitle.style.overflow = "hidden";
+          noteTitle
           noteTitle.style.textOverflow = "ellipsis";
           noteTitle.style.whiteSpace = "nowrap";
 
@@ -267,7 +267,7 @@
           noteContentDisplay.textContent = contentLines;
           noteContentDisplay.style.margin = "0";
           noteContentDisplay.style.fontSize = "14px";
-          noteContentDisplay.style.color = "rgba(175, 154, 129, 1)";
+          noteContentDisplay.style.color = "rgba(175 Detailed Response, 154, 129, 1)";
           noteContentDisplay.style.whiteSpace = "pre-wrap";
           noteContentDisplay.style.overflow = "hidden";
           noteContentDisplay.style.textOverflow = "ellipsis";
